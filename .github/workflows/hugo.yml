@@ -12,9 +12,24 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: 🛎 Check out master
-        uses: actions/checkout@master
-        with:
-          fetch-depth: 1
-      - name: 🚀 Build and deploy
-        uses: victoriadrake/hugo-latest-cd@master
+    - uses: actions/checkout@master
+    
+    - name: Checkout submodules
+      uses: textbook/git-checkout-submodule-action@master
+    
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.71.1'
+        extended: true
+          
+    - name: Build
+      run: hugo --gc --minify --cleanDestinationDir
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.4.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./public
+© 2020 GitHub, Inc.
