@@ -386,7 +386,7 @@ h =&amp;amp;\bmat{c} 1\\2\\4\emat
 &lt;span id=&#34;cb43-20&#34;&gt;&lt;a href=&#34;#cb43-20&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;X, Y &lt;span class=&#34;op&#34;&gt;=&lt;/span&gt; np.meshgrid(x, y)&lt;/span&gt;
 &lt;span id=&#34;cb43-21&#34;&gt;&lt;a href=&#34;#cb43-21&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;plt.show()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;figure&gt;
-&lt;img src=&#34;/Static-Website-Hugo-Docsy/img/output_73_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
+&lt;img src=&#34;output_73_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;&lt;em&gt;Example (Distance between polyhedra):&lt;/em&gt; Consider the following two polyhedra: &lt;span class=&#34;math display&#34;&gt;\[\begin{equation}
 \mathcal{P}_1=\{x| A_1x \preccurlyeq b_1\},\ \mathcal{P}_2=\{x| A_2x \preccurlyeq b_2\}
@@ -413,7 +413,7 @@ h =&amp;amp;\bmat{c} 1\\2\\4\emat
 &lt;span id=&#34;cb44-14&#34;&gt;&lt;a href=&#34;#cb44-14&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;plt.ylim(&lt;span class=&#34;op&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;dv&#34;&gt;3&lt;/span&gt;,&lt;span class=&#34;dv&#34;&gt;5&lt;/span&gt;)&lt;/span&gt;
 &lt;span id=&#34;cb44-15&#34;&gt;&lt;a href=&#34;#cb44-15&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;plt.show()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;figure&gt;
-&lt;img src=&#34;/Static-Website-Hugo-Docsy/img/output_75_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
+&lt;img src=&#34;output_75_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;The distance between these two polygons is computed with the following QP optimization problem:&lt;/p&gt;
 &lt;div class=&#34;sourceCode&#34; id=&#34;cb45&#34;&gt;&lt;pre class=&#34;sourceCode python&#34;&gt;&lt;code class=&#34;sourceCode python&#34;&gt;&lt;span id=&#34;cb45-1&#34;&gt;&lt;a href=&#34;#cb45-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;x1 &lt;span class=&#34;op&#34;&gt;=&lt;/span&gt; cp.Variable((&lt;span class=&#34;dv&#34;&gt;2&lt;/span&gt;,&lt;span class=&#34;dv&#34;&gt;1&lt;/span&gt;))&lt;/span&gt;
