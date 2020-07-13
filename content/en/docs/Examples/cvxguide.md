@@ -663,7 +663,7 @@ plt.show()
 ```
 
 
-![png](/img/output_73_0.png)
+![png](output_73_0.png)
 
 
 *Example (Distance between polyhedra):* Consider the following two polyhedra:
@@ -702,7 +702,7 @@ plt.show()
 ```
 
 
-![png](/img/output_75_0.png)
+![png](output_75_0.png)
 
 
 The distance between these two polygons is computed with the following QP optimization problem:
