@@ -246,7 +246,7 @@ plt.show()
 ```
 
 
-![png](img/output_31_0.png)
+![png](output_31_0.png)
 
 
 Now, to solve the following LP problem (LP2):
@@ -390,7 +390,7 @@ plt.show()
 ```
 
 
-![png](img/output_46_0.png)
+![png](output_46_0.png)
 
 
 ### Generalized linear fractional program
