@@ -146,7 +146,7 @@ f(\lambda_1x_1+\lambda_2x_2)\leq \lambda_1f(x_1)+\lambda_2f(x_2)
 &lt;span id=&#34;cb12-18&#34;&gt;&lt;a href=&#34;#cb12-18&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;plt.text(&lt;span class=&#34;fl&#34;&gt;4.5&lt;/span&gt;, &lt;span class=&#34;fl&#34;&gt;2.25&lt;/span&gt;, &lt;span class=&#34;st&#34;&gt;&amp;quot;x+y=8&amp;quot;&lt;/span&gt;)&lt;/span&gt;
 &lt;span id=&#34;cb12-19&#34;&gt;&lt;a href=&#34;#cb12-19&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;plt.show()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;figure&gt;
-&lt;img src=&#34;https://elearninghub.github.io/Static-Website-Hugo-Docsy/img/output_31_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
+&lt;img src=&#34;img/output_31_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Now, to solve the following LP problem (LP2):&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align}
@@ -226,7 +226,7 @@ a_3 =&amp;amp;[2,-1]^T,\ b_3=4\nonumber
 &lt;span id=&#34;cb25-17&#34;&gt;&lt;a href=&#34;#cb25-17&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;plt.axis([&lt;span class=&#34;op&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;dv&#34;&gt;3&lt;/span&gt;, &lt;span class=&#34;dv&#34;&gt;5&lt;/span&gt;, &lt;span class=&#34;op&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;dv&#34;&gt;3&lt;/span&gt;, &lt;span class=&#34;dv&#34;&gt;5&lt;/span&gt;])&lt;/span&gt;
 &lt;span id=&#34;cb25-18&#34;&gt;&lt;a href=&#34;#cb25-18&#34; aria-hidden=&#34;true&#34;&gt;&lt;/a&gt;plt.show()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;figure&gt;
-&lt;img src=&#34;https://elearninghub.github.io/Static-Website-Hugo-Docsy/img/output_46_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
+&lt;img src=&#34;img/output_46_0.png&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;png&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h3 id=&#34;generalized-linear-fractional-program&#34;&gt;Generalized linear fractional program&lt;/h3&gt;
 &lt;p&gt;A linear fractional program is defined as (LFP): &lt;span class=&#34;math display&#34;&gt;\[\begin{align}
