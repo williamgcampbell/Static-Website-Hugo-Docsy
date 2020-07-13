@@ -17,6 +17,11 @@ jobs:
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@master
     
+    - name: install pandoc
+      run: |
+           wget https://github.com/jgm/pandoc/releases/download/2.10/pandoc-2.10-1-amd64.deb
+           dpkg -i pandoc-2.10-1-amd64.deb
+ 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
