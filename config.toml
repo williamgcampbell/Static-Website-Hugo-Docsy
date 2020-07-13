@@ -1,4 +1,4 @@
-baseURL = "https://elearninghub.github.io/Static-Website-Hugo-Docsy/"
+baseURL = "/Static-Website-Hugo-Docsy"
 title = "eLearning Hub"
 
 enableRobotsTXT = true
