@@ -42,6 +42,7 @@ jobs:
 
     - name: Build for Netlify
       run: |
+       rm -rf ./public
        hugo --gc --minify -b https://flamboyant-curie-917bcc.netlify.app/
        
     - name: Deploy to Netlify
