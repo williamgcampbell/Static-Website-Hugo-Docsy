@@ -40,6 +40,10 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
+    - name: Build for Netlify
+      run: |
+       hugo --gc --minify -b https://flamboyant-curie-917bcc.netlify.app/
+       
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1
       with:
