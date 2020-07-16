@@ -1,7 +1,7 @@
     - name: Build for Netlify
       run: |
        rm -rf ./public
-       hugo --gc --minify -b https://flamboyant-curie-917bcc.netlify.app/
+       hugo --gc --minify -b ${{ secrets.NETLIFY_SITE_URL }}
        
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1
